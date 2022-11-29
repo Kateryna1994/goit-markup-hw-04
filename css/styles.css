@@ -254,6 +254,19 @@ img{
     padding-bottom: 94px;
     background: #F5F4FA;
 }
+.overlay{
+    width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient( 
+        to right,
+         rgba(47, 48, 58, 0.4), 
+         rgba(47, 48, 58, 0.4)), 
+         url(../images/Imgpfone.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .container-hero{
     width: 1200px;
     padding-left: 15px;
@@ -268,9 +281,10 @@ img{
     margin-right: auto;
     padding-top: 94px;
     padding-bottom: 94px;
-    background-color: #2F303A;
+    /* background-color: #2F303A; */
     text-align: center;
 }
+
 
 .hero .hero-title{
     color: var(--primary-white-color);
