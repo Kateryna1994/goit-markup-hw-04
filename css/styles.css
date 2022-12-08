@@ -427,7 +427,7 @@ img{
 
 .customers{
     color: var(--primery-button-color) ;
-    background-color: #FFFFFF;
+    background-color: var(--primary-white-color);
     margin-top: 0;
     margin-bottom: 50px;
     font-weight: 700;
@@ -438,7 +438,7 @@ img{
 .client{
     display: flex;
     list-style: none;
-    background-color: #FFFFFF;
+    background-color: var(--primary-white-color);
 }
 .item-clients{
     margin-left: 30px;
@@ -449,7 +449,7 @@ img{
 .clients{
     display: flex;
     content: "";
-    background-color: #FFFFFF;
+    background-color: var(--primary-white-color);
     width: 170px;
     height: 92px;
     border: 1px solid #AFB1B8;
@@ -464,7 +464,8 @@ img{
 .clients-icon{
     fill: #afb1b8;
 }
-.clients-icon:hover{
+.clients-icon:hover
+.clients-icon:focus{
     fill: var(--accent-text-color);
 }
 /* футер */
