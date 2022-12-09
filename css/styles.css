@@ -449,7 +449,7 @@ img{
 .clients{
     display: flex;
     content: "";
-    background-color: var(--primary-white-color);
+    background-color: #FFFFFF;
     width: 170px;
     height: 92px;
     border: 1px solid #AFB1B8;
@@ -464,7 +464,9 @@ img{
 .clients-icon{
     fill: #afb1b8;
 }
-.clients-icon:hover
+.clients-icon:hover{
+    fill: var(--accent-text-color);
+}
 .clients-icon:focus{
     fill: var(--accent-text-color);
 }
