@@ -23,7 +23,6 @@ body {
     background-color: #FFFFFF;
 }
 .header{
-    width: 1600px;
     background-color: #FFFFFF;
     margin-left: auto;
     margin-right: auto;
@@ -129,7 +128,6 @@ margin-left: 50px;
 }
 
 .section{
-    width: 1600px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 94px;
@@ -140,7 +138,6 @@ img{
     margin: 0;
 }
 .section-button{
-    width: 1600px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 94px;
@@ -209,7 +206,6 @@ img{
     text-align: center;
 }
 .section-flex{
-    width: 1600px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 50px;
@@ -275,7 +271,6 @@ img{
     text-align: center;
 }
 .sidebar{
-    width: 1600px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 94px;
@@ -328,13 +323,11 @@ img{
     margin-right: auto;
 }
 .hero{
-    width: 1600px;
     height: 600px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 94px;
     padding-bottom: 94px;
-    /* background-color: #2F303A; */
     text-align: center;
 }
 
@@ -453,6 +446,7 @@ img{
     width: 170px;
     height: 92px;
     border: 1px solid #AFB1B8;
+    color: #afb1b8;
     border-radius: 4px;
     align-items: center;
     justify-content: center;
@@ -460,15 +454,10 @@ img{
 .clients:hover,
 .clients:focus{
     border-color: var(--accent-text-color);
+    color: var(--accent-text-color);
 }
 .clients-icon{
-    fill: #afb1b8;
-}
-.clients-icon:hover{
-    fill: var(--accent-text-color);
-}
-.clients-icon:focus{
-    fill: var(--accent-text-color);
+    fill: currentColor;
 }
 /* футер */
 .container-footer{
@@ -481,7 +470,6 @@ img{
     margin-right: auto; 
 }
 .footer{
-    width: 1600px;
     height: 251px;
     margin-left: auto;
     margin-right: auto;
@@ -495,6 +483,7 @@ img{
 .adress{
     padding-top: 28px;
     color: var(--primary-white-color);
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -507,6 +496,10 @@ img{
     font-size: 14px;
     line-height: 1.71;
     text-decoration: none;
+}
+.contacts:hover,
+.contacts:focus{
+color: var(--accent-text-color);
 }
 
 .contacts-footer{
